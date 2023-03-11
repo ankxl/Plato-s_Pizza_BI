@@ -18,7 +18,7 @@
 >Thanks in advance,
 > Mario Maven (Manager, Plato's Pizza)
 
-## 2. Key Insights
+## 2. Assumptions and Insights
 
 ### 2.1 Assumptions
 1. The earliest order was between 9 AM and 10 AM so I assumed that the operating hours for Plato's Pizza is between 09:00 to 23:59.
@@ -27,7 +27,23 @@
 4. For the purposes of capacity analysis, I have assumed this is a dine in restaurant and have no take out orders irrespective of the time of order.
 5. Key metrics for analysis are Total Orders, Total Revenue, Average Revenue per Day/Hour , Average Orders per Day/ Hour, Average Revenue per order, Table Shortage, Seat Shortage, Days with no Table/Seat shortage (stockout).
 
-### 2.2 Key Insights
+### 2.2 Basic Statistics (observation) from data
+1. In a year Plato's Pizza 
+   - Total orders received 21.35K orders
+   - Average orders per day 58.33 
+   - Total revenue generated is $817.86K
+   - Average revenue per order is $38.31
+   - Average revenue per day is $2.23K
+ 2. Most orders are received on Friday (3.54K) generating $136K followed by Thursday (3.24K) generating $123.53K. The least orders are recevied on Monday (2.62K) generating $99.20K.
+ 3. Average orders received on School nights are 56.15 while on Holiday nights are 63.77 orders per day.
+ 4. July is the busiest month with 62.42 orders per day on average generating $72.56K while the least busiest month was October with 53.10 average orders per day generating $64.03K
+ 5. November and October generates the highest revenue per order at $39.28 per order and $38.9 per order respectively.
+ 6. Hour wise analysis
+    - Least Busy hours were 9 AM to 10 AM with 1 order, 10 AM to 11 AM with 8 orders and 11 PM t0 12:00 AM with 28 orders across the year.
+    - Busiest time was between 12 noon to 1:00 PM with 2.52K orders (6.89 orders per day) generating $111.88K followed by 1:00 PM to 2:00 PM with 2.46K orders (6.71 orders per day) generating $106K
+    - Average revenue per order is highest during the lunch time slot: 11 AM to 12 noon at $44.40 per order and 12 noon to 1 PM at $43.20 per order. The metric decreases during the afternoon and evening.
+
+### 2.3 Key Insights
 1. 
 
 
