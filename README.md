@@ -26,9 +26,10 @@
 3. Sunday evening to Thursday evening for the purposes of analysis have been considered school nights
 4. For the purposes of capacity analysis, I have assumed this is a dine in restaurant and have no take out orders irrespective of the time of order.
 5. Small pizzas are consumed by an individual, Medium pizza is shared between 2 individuals, Large Pizzas are shared between 4 individuals, Xtra Large pizzas are shared between 6 individuals and Xtra Xtra Large pizzas are shared between 8.
-6. For Table capacity Analysis it is assumed that 4 chairs are available to each table and table sharing is not permitted. Also, if there are 1 - 4 people in a group they will need one table, 5-8 people in a group will need 2 tables and so on.
-7. Seat capacity analysis is independent of Table capacity analysis. It is not required for an individual to have a dedicated table to eat their pizza. Tables can be shared. Each individual requires a seat to eat pizzas.
-8. Key metrics for analysis are Total Orders, Total Revenue, Average Revenue per Day/Hour , Average Orders per Day/ Hour, Average Revenue per order, Average Pizzas produced by Day/ Hour, Table Shortage, Seat Shortage, Days with no Table/Seat shortage (stockout).
+6. For capacity analysis pizza, it is assumed that pizzas are produced on average of 20 mins and time to eat the pizzas irrespective of group size is 20 mins.
+7. For Table capacity Analysis it is assumed that 4 chairs are available to each table and table sharing is not permitted. Also, if there are 1 - 4 people in a group they will need one table, 5-8 people in a group will need 2 tables and so on.
+8. Seat capacity analysis is independent of Table capacity analysis. It is not required for an individual to have a dedicated table to eat their pizza. Tables can be shared. Each individual requires a seat to eat pizzas.
+9. Key metrics for analysis are Total Orders, Total Revenue, Average Revenue per Day/Hour , Average Orders per Day/ Hour, Average Revenue per order, Average Pizzas produced by Day/ Hour, Table Shortage, Seat Shortage, Days with no Table/Seat shortage (stockout).
 
 ### 2.2 Basic Statistics (observation) from data
 1. In a year Plato's Pizza 
@@ -71,7 +72,9 @@
    - Pizzas Produced: Thursday between 12 noon and 1 PM with an average of 21.68 pizzas followed by Monday 12 noon to 1 PM with an average of 21.65 pizzas
  2. Busiest slots on Working days is lunch between 12 PM to 2 PM with gradual decline during the day and small peak in the evening (dinner orders) between 5 PM to 7 PM followed by another gradual decline in orders.
  3. Busiest slots on Weekends is dinner between 5 PM to 7 PM.
- 4. Brie Carre Pizza is the worst selling pizza with only 490 pizzas ($11,588) sold across the year probably because it's only sold in small sku. This is the second best selling small pizza by revenue $.
+ 4. Brie Carre Pizza is the worst selling pizza with only 490 pizzas ( $ 11,588),   sold across the year probably because it's only sold in small sku. This is the second best selling small pizza by revenue $.
+ 5. Table Capacity Analysis
+    - 
 
 ### 2.4 Recommendations
 1. Average revenue generated between 9 AM to 10 AM is ~$0.2 per day, 10 AM to 11 AM is ~$0.8 per day and slot 11 PM to 12 AM is ~$3 per day which is less than minimum wage thus we recommend to change the opening hours from 11 AM (or 10:30 AM) to 11 PM.
