@@ -40,13 +40,18 @@
  5. November and October generates the highest revenue per order at $39.28 per order and $38.9 per order respectively.
  6. Hour wise analysis
     - Least Busy hours were 9 AM to 10 AM with 1 order, 10 AM to 11 AM with 8 orders and 11 PM t0 12:00 AM with 28 orders across the year.
-    - Busiest time was between 12 noon to 1:00 PM with 2.52K orders (6.89 orders per day) generating $111.88K followed by 1:00 PM to 2:00 PM with 2.46K orders (6.71 orders per day) generating $106K
-    - Average revenue per order is highest during the lunch time slot: 11 AM to 12 noon at $44.40 per order and 12 noon to 1 PM at $43.20 per order. The metric decreases during the afternoon and evening.
+    - Busiest time was between 12 noon to 1 PM with 2.52K orders (6.89 orders per day) generating $111.88K followed by 1 PM to 2 PM with 2.46K orders (6.71 orders per day) generating $106K
 
 ### 2.3 Key Insights
-1. 
+1. Busiest Day-Hour slot by
+   - Total Orders: Thursday between 1 PM to 2 PM with 438 orders followed by same day 12 noon to 1 PM slot with 434 orders
+   - Total revenues: Thursday between 12 noon to 1 PM generating $19K followed by same day 1 PM to 2 PM slot generating 18.8K
+   - Total Pizzas: Thursday between 12 noon to 1 PM with 1149 pizzas followed by same day 1 PM to 2 PM slot with 1131 pizzas and Monday 12 noon to 1 PM with 1126 pizzas.
+   - Pizzas Produced: Thursday between 12 noon and 1 PM with an average of 21.68 pizzas followed by Monday 12 noon to 1 PM with an average of 21.65 pizzas 
 
-
+### 2.4 Recommendations
+1. Average revenue generated between 9 AM to 10 AM is ~$0.2 per day, 10 AM to 11 AM is ~$0.8 per day and slot 11 PM to 12 AM is ~$3 per day which is less than minimum wage thus we recommend to change the opening hours from 11 AM (or 10:30 AM) to 11 PM.
+2. 
 
 
 ## X. Data Files
