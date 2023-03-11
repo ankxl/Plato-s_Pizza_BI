@@ -25,7 +25,8 @@
 2. The days with no orders (#8 days) have not been assumed as holidays just days with no orders.
 3. Sunday evening to Thursday evening for the purposes of analysis have been considered school nights
 4. For the purposes of capacity analysis, I have assumed this is a dine in restaurant and have no take out orders irrespective of the time of order.
-5. Key metrics for analysis are Total Orders, Total Revenue, Average Revenue per Day/Hour , Average Orders per Day/ Hour, Average Revenue per order, Table Shortage, Seat Shortage, Days with no Table/Seat shortage (stockout).
+5. Small pizzas are consumed by an individual, Medium pizza is shared between 2 individuals, Large Pizzas are shared between 4 individuals, Xtra Large pizzas are shared between 6 individuals and Xtra Xtra Large pizzas are shared between 8.
+6. Key metrics for analysis are Total Orders, Total Revenue, Average Revenue per Day/Hour , Average Orders per Day/ Hour, Average Revenue per order, Average Pizzas produced by Day/ Hour, Table Shortage, Seat Shortage, Days with no Table/Seat shortage (stockout).
 
 ### 2.2 Basic Statistics (observation) from data
 1. In a year Plato's Pizza 
@@ -41,13 +42,34 @@
  6. Hour wise analysis
     - Least Busy hours were 9 AM to 10 AM with 1 order, 10 AM to 11 AM with 8 orders and 11 PM t0 12:00 AM with 28 orders across the year.
     - Busiest time was between 12 noon to 1 PM with 2.52K orders (6.89 orders per day) generating $111.88K followed by 1 PM to 2 PM with 2.46K orders (6.71 orders per day) generating $106K
+ 7. Best Selling Pizzas
+     - Pizzas #: Classic Deluxe Pizza (2,453)
+     - Pizzas Small #: Big Meat Pizza (1,914)
+     - Pizzas Medium #: Classic Deluxe Pizza (1,181)
+     - Pizzas Large #: Thai Chicken Pizza (1,410)
+     - Pizzas $: Thai Chicken Pizza ($43,434)
+     - Pizzas Small $: Big Meat Pizza ($22,968). 2x of next best selling small pizza.
+     - Pizzas Medium $: Classic Deluxe Pizza ($18,896)
+     - Pizzas Large $: Thai Chicken Pizza ($29,258)
+  8. Worst Selling Pizzas
+     - Pizzas #: Brie Carre Pizza (490)
+     - Pizzas Small #: Chicken Alfredo Pizza (96)
+     - Pizzas Medium #: Spinach Supreme Pizza (267)
+     - Pizzas Large #: Green Garden Pizza (96)
+     - Pizzas $: Brie Carre Pizza ($11,588)
+     - Pizzas Small $: Calabrese Pizza ($1,213). 
+     - Pizzas Medium $: Mediterranean Pizza ($4,400)
+     - Pizzas Large $: Green Garden Pizza ($1,924)
 
 ### 2.3 Key Insights
 1. Busiest Day-Hour slot by
    - Total Orders: Thursday between 1 PM to 2 PM with 438 orders followed by same day 12 noon to 1 PM slot with 434 orders
    - Total revenues: Thursday between 12 noon to 1 PM generating $19K followed by same day 1 PM to 2 PM slot generating 18.8K
    - Total Pizzas: Thursday between 12 noon to 1 PM with 1149 pizzas followed by same day 1 PM to 2 PM slot with 1131 pizzas and Monday 12 noon to 1 PM with 1126 pizzas.
-   - Pizzas Produced: Thursday between 12 noon and 1 PM with an average of 21.68 pizzas followed by Monday 12 noon to 1 PM with an average of 21.65 pizzas 
+   - Pizzas Produced: Thursday between 12 noon and 1 PM with an average of 21.68 pizzas followed by Monday 12 noon to 1 PM with an average of 21.65 pizzas
+ 2. Busiest slots on Working days is lunch between 12 PM to 2 PM with gradual decline during the day and small peak in the evening (dinner orders) between 5 PM to 7 PM followed by another gradual decline in orders.
+ 3. Busiest slots on Weekends is dinner between 5 PM to 7 PM.
+ 4. 
 
 ### 2.4 Recommendations
 1. Average revenue generated between 9 AM to 10 AM is ~$0.2 per day, 10 AM to 11 AM is ~$0.8 per day and slot 11 PM to 12 AM is ~$3 per day which is less than minimum wage thus we recommend to change the opening hours from 11 AM (or 10:30 AM) to 11 PM.
