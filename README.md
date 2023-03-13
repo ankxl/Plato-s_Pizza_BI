@@ -82,12 +82,12 @@
     - Total Seat shortages were 1148 (~3 times table shortages per day)
     - Maximum shortages on Nov 26 with 37 times shortages reported.
 
-### 2.4 Recommendations
+## 3. Recommendations
 1. Average revenue generated between 9 AM to 10 AM is ~$0.2 per day, 10 AM to 11 AM is ~$0.8 per day and slot 11 PM to 12 AM is ~$3 per day which is less than minimum wage thus we recommend to change the opening hours from 11 AM (or 10:30 AM) to 11 PM.
-2. 
+2. In order to study the impact of Table/ Seat capacity shortage/ overflow, understand what % of orders are take out and dine in. Re-run the simulation to understand the capacity overflow and if there are any season element to the same. There is a need to study the impact of wait times, does this lead to loss of revenue? how does the shortage impact loyalty of customers?
 
 
-## X. Data Files
+## 4. Data Files
 
 This dataset contains 4 tables in CSV format
 
@@ -96,7 +96,7 @@ This dataset contains 4 tables in CSV format
 - The Pizzas table contains the size and price for each distinct pizza in the Order Details table, as well as its broader pizza type
 - The Pizza Types table contains details on the pizza types in the Pizzas table, including their name as it appears on the menu, the category it falls under, and its list of ingredients
 
-## X. Data Dictionary
+## 5. Data Dictionary
 | Table      | Field  | Description     |
 | :---        |    :----:   | :---         |
 | orders   | order_id   | Unique identifier for each order placed by a table  |
