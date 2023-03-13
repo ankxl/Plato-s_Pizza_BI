@@ -74,7 +74,13 @@
  3. Busiest slots on Weekends is dinner between 5 PM to 7 PM.
  4. Brie Carre Pizza is the worst selling pizza with only 490 pizzas ( $ 11,588),   sold across the year probably because it's only sold in small sku. This is the second best selling small pizza by revenue $.
  5. Table Capacity Analysis
-    - 
+    - Only 11 days in the year without any table shortage (includes 8 days with no orders) at the pizza joint.
+    - Total Table shortages were 4669 (~13 times table shortages per day)
+    - Maximum shortages on Nov 27 with 73 times shortages reported.
+ 6. Seat Capacity Analysis
+    - 128 days where no seat capacity shortage reported in the year.
+    - Total Seat shortages were 1148 (~3 times table shortages per day)
+    - Maximum shortages on Nov 26 with 37 times shortages reported.
 
 ### 2.4 Recommendations
 1. Average revenue generated between 9 AM to 10 AM is ~$0.2 per day, 10 AM to 11 AM is ~$0.8 per day and slot 11 PM to 12 AM is ~$3 per day which is less than minimum wage thus we recommend to change the opening hours from 11 AM (or 10:30 AM) to 11 PM.
